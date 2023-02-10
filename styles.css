@@ -13,7 +13,7 @@ body {
 .Welcome{
     /* make bold */
     padding-left: 20px;
-    font-size: 4rem;
+    font-size: 80px;
 }
 .Welcome1{
     /* make bold */
@@ -181,4 +181,16 @@ may have to be removed because its old */
         display: block;
         text-align: center;
       }
+      .Welcome{
+        /* make bold */
+        padding-left: 20px;
+        font-size: 150px;
+    }
+    .Welcome1{
+        /* make bold */
+        padding-top: 50px;
+        padding-left: 20px;
+        font-size: 150px;
+    }
+    
   }
