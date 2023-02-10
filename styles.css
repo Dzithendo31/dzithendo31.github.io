@@ -1,0 +1,177 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.my-5 {
+    background-color: #f4f4f4;
+}
+.text-center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.Welcome{
+    /* make bold */
+    padding-left: 20px;
+    font-size: 4rem;
+}
+.Welcome1{
+    /* make bold */
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 4rem;
+}
+ .btn1{
+    text-decoration: none;
+    color: #f4f4f4;
+    margin-left: 20px;
+    background-color: #ffc400;
+    text-align: center;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 6px;
+
+
+ }
+.btn1:hover{
+    background-color: white;
+    color: rgb(0, 132, 255);
+    text-decoration: none;
+    /* to include also the other colors */
+}
+.emp{
+    padding-left: 20px;
+    letter-spacing: 1.5px;
+    font-size: 0.9rem;
+    color: rgb(0, 77, 149);
+}
+.row{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.navbarNav{
+    background-color: aqua;
+}
+
+/* the learn more butttons */
+.btn2{
+    text-decoration: none;
+    color: #f4f4f4;
+    margin-left: 0px;
+    border: 0cm;
+    background-color: rgb(255, 196, 0);
+    text-align: center;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 6px;
+
+
+ }
+.btn2:hover{
+    background-color: white;
+    color: rgb(255, 196, 0);
+    text-decoration: none;
+    /* to include also the other colors */
+}
+
+.btn3{
+    text-decoration: none;
+    color: #f4f4f4;
+    margin-left: 0px;
+    background-color: rgb(255, 196, 0);
+    text-align: center;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 6px;
+    
+
+
+ }
+.btn3:hover{
+    background-color: white;
+    color: rgb(255, 196, 0);
+    text-decoration: none;
+    border: #ffc400;
+    /* to include also the other colors */
+}
+.tesImag{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.img4{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 75px;
+    margin-top: 20px;
+
+}
+.btn5{
+    text-decoration: none;
+    color: #f4f4f4;
+    border: 0cm;
+    background-color: rgb(31, 184, 0);
+    text-align: center;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 6px;
+    
+
+
+ }
+.btn5:hover{
+    background-color: rgb(19, 114, 0);
+    color:  white;
+    text-decoration: none;
+    border: #ffc400;
+    /* to include also the other colors */
+}
+.whatsApp{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+
+/* for the contact form
+may have to be removed because its old */
+.form-group{
+    padding-top: 10px;
+}
+
+.hids{
+    font-size: small;
+    color: #6e6e6e;
+    font-style: italic;
+    padding-top: 10px;
+}
+
+.mids{
+    color: #707070;
+    font-size: small;
+}
+@media only screen and (max-width: 800px) {
+    body {
+      font-size: 14px;
+    }
+
+    .card{
+        padding-bottom: 40px;
+    }
+    .img4{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        margin-left: 75px;
+        margin-top: 20px;
+    
+    }
+  }

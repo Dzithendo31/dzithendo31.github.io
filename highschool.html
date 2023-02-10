@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>High School Tutoring</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand text-light" href="{{ url_for('index') }}"style ="font-weight:bold;"><span style="color: rgb(255, 196, 0);">S</span>piral Tutors</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-light" href="{{ url_for('index') }}">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="{{ url_for('about') }}">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="{{ url_for('services') }}">Courses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="{{ url_for('contact') }}">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container my-5">
+    <h1 class="text-center">High School Tutoring</h1>
+    <p>At Spiral Tutors, we understand the unique challenges that come with studying at the high school level. Our experienced tutors are here to provide you with the personalized instruction and support you need to succeed in your classes and achieve your academic goals. </p>
+    <p>We offer a wide range of subjects including Math, Science, and Accounting. Our services are tailored to meet the unique needs of each student, whether they are struggling to keep up in class or looking to excel and achieve top grades.</p>
+    <p>Our tutors have a deep understanding of the high school curriculum and can help you with everything from exam preparation to understanding complex course material.</p>
+    <p>We also offer online tutoring for students who are unable to meet with us in person. This allows you to receive the same high-quality instruction and support from the comfort of your own home.</p>
+    <p>We also provide extra support in the subjects of Math, Science and Accounting which are crucial for high school students. We have experts in these subjects who can help you understand the concepts, improve problem-solving skills, and excel in your exams.</p>
+    <p>If you're looking for help with your high school studies, contact us today to learn more about our services and schedule a session with one of our experienced tutors.</p>
+    
+    </div>
+    <footer class="bg-light py-3">
+        <div class="container">
+            <p class="text-center">Copyright &copy; Spiral Tutors {{ current_year }}</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+    </html>

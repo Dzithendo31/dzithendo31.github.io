@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand text-light" href="{{ url_for('index') }}"style ="font-weight:bold;"><span style="color: rgb(255, 196, 0);">S</span>piral Tutors</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-light" href="{{ url_for('index') }}">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-light" href="{{ url_for('about') }}">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="{{ url_for('services') }}">Courses</a>
+            </li> <li class="nav-item">
+                <a class="nav-link text-light" href="{{ url_for('contact') }}">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container my-5">
+    <h1 class="text-center">About Us</h1>
+    <p>Spiral Tutoring is a leading provider of high-quality tutoring services for students of all ages and abilities. Our experienced tutors are dedicated to helping students achieve their full potential by providing personalized instruction and support.</p>
+    <p>We offer a wide range of subjects including Math, Science, Accounting, and Geography. Our services are tailored to meet the unique needs of each student, whether they are struggling to keep up in class or looking to excel and achieve top grades.</p>
+    <p>At Spiral Tutoring, we believe in the power of education and the positive impact it can have on a student's life. Our goal is to empower students with the knowledge and skills they need to succeed in school and beyond.</p>
+</div>
+<footer class="bg-light py-3">
+    <div class="container">
+        <p class="text-center">Copyright &copy; Spiral Tutors {{ current_year }}</p>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

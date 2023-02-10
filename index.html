@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index_style.css" />
+</head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        
+        <a class="navbar-brand text-light" href="#"style ="font-weight:bold;"><span style="color: rgb(255, 196, 0);">S</span>piral Tutors</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="services.html">Courses</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-light" href="contact.html">Contact</a>
+                </li>
+                </ul>
+                </div>
+                </nav>
+                <div class="container my-5">
+                <h1 class="Welcome1">Welcome</h1>
+                <h1 class="Welcome">to Spiral Tutors</h1>
+                <!-- a simple paragrapg -->
+                <p class="emp">Empowering Minds, One Lesson at a Time</p>
+                <a href="{{ url_for('services') }}" class="btn1">courses</a>
+                <div class="row">
+                <div class="col-md-6">
+                <div class="card">
+                <div class="card-body">
+                <h2 class="card-title">University Tutoring</h2>
+                <!-- new images trial -->
+                <img src="uni.jpg" class="card-img-top" alt="Math Tutoring">
+                <p class="card-text">We offer tutoring services for university students in a wide range of course; CSC, EEE and MAM, provide the support you need to succeed at the university level.</p>
+                <a href="{{ url_for('university') }}" class="btn2">Learn More</a>
+                </div>
+                </div>
+                </div>
+                <div class="col-md-6">
+                <div class="card">
+                <div class="card-body">
+                <h2 class="card-title">High School Tutoring</h2>
+                <img src="high.jpg" class="card-img-top" alt="Math Tutoring">
+                <p class="card-text">We offer expert tutoring services in Acc, Math, and Phy to help students achieve their academic goals and succeed in their studies.</p>
+                <a href="{{ url_for('highschool') }}" class="btn2">Learn More</a>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                <footer class="bg-light py-3">
+                    <h1 class="text-center">Testimonials</h1>
+                    <div class="container my-5">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <!-- new images in testimonial -->
+                                        <img src="tes.jpg" class="tesImag" alt="Math Tutoring">
+                                        <p class="card-text">"I couldn't have passed my math exam without My Tutoring Company's help. They are amazing tutors who really know how to explain things in a way that makes sense."</p>
+                                        <p class="card-text">- John Doe</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img src="tes.jpg" class="tesImag" alt="Math Tutoring">
+                                        <p class="card-text">"I was really struggling in science class, but after working with My Tutoring Company, I'm getting A's and B's now. I'm so grateful for their help."</p>
+                                        <p class="card-text">- Jane Smith</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img src="tes.jpg" class="tesImag" alt="Math Tutoring">
+                                        <p class="card-text">"My Tutoring Company helped me improve my accounting skills and I was able to secure a job in an accounting firm. I am very happy with the service they provided."</p>
+                                        <p class="card-text">- Michael Brown</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                <div class="container">
+                <p class="text-center">Copyright © Spiral Tutoring {{ current_year }}</p>
+                </div>
+                </footer>
+                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+                
+                  </body>
+                </html>
