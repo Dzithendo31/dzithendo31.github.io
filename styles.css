@@ -174,4 +174,11 @@ may have to be removed because its old */
         margin-top: 20px;
     
     }
+    .navbar-brand text-light{
+
+    }
+    a {
+        display: block;
+        text-align: center;
+      }
   }
